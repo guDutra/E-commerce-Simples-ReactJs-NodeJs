@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    height: 80px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.links {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .links a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
